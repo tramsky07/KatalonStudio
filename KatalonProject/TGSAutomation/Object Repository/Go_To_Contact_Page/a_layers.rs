@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_layers</name>
+   <tag></tag>
+   <elementGuidId>fa1d04bd-ddf6-4b02-9b23-c33f8b1253d4</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ripplelink tabmenuitem-link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        layers
+                        
+                    </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ocp-app[1]/div[@class=&quot;layout-wrapper&quot;]/div[@class=&quot;layout-container menu-layout-static layout-menu-static-inactive&quot;]/ocp-menu-left[1]/div[@class=&quot;layout-sidebar&quot;]/div[@class=&quot;layout-tabmenu&quot;]/ul[@class=&quot;layout-tabmenu-nav&quot;]/li[@class=&quot;tabmenuitem active-item&quot;]/a[@class=&quot;ripplelink tabmenuitem-link&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

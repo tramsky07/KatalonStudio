@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginSuite" time="22" tests="2" failures="0" errors="0">
+   <testsuite name="LoginSuite" tests="2" failures="0" errors="0" time="22" timestamp="2018-03-15 09:24:32" hostname="zarma - LT7CCSP271.champ.aero" id="Test Suites/LoginSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\KatalonProject\\TGSAutomation\\Reports\\LoginSuite\\20180315_092428"/>
+         <property name="logFiles" value="D:\\KatalonProject\\TGSAutomation\\Reports\\LoginSuite\\20180315_092428\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="zarma - LT7CCSP271.champ.aero"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.162"/>
+         <property name="hostAddress" value="10.5.182.42"/>
+         <property name="sessionId" value="faa622072ae4a84a102416b2d725b28f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/LogIn/LogInCustomKeyword" classname="Test Cases/LogIn/LogInCustomKeyword" status="PASSED">
+         <system-out><![CDATA[2018-03-15 09:24:32 - [TEST_CASE][PASSED] - Test Cases/LogIn/LogInCustomKeyword: Test Cases/LogIn/LogInCustomKeyword
+
+2018-03-15 09:24:33 - [TEST_STEP][PASSED] - username.setUsername.applicationLogIn: username.setUsername.applicationLogIn is PASSED
+
+2018-03-15 09:24:39 - [MESSAGE][PASSED] - Browser is opened with url: 'http://login-dev.champ.aero/sso/login'
+
+2018-03-15 09:24:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-15 09:24:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-15 09:24:41 - [MESSAGE][PASSED] - Keys 'mart.zarate@gmail.com' sent to object: 'Object Repository/Page_Login/input_email'
+
+2018-03-15 09:24:41 - [MESSAGE][PASSED] - Keys 'gwapito' sent to object: 'Object Repository/Page_Login/input_password'
+
+2018-03-15 09:24:42 - [MESSAGE][PASSED] - Keys 'CV' sent to object: 'Object Repository/Page_Login/input_customer'
+
+2018-03-15 09:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+2018-03-15 09:24:44 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-15 09:24:44 - [MESSAGE][PASSED] - username.setUsername.applicationLogIn is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogIn/LogInWithInvalidCredentials" classname="Test Cases/LogIn/LogInWithInvalidCredentials" status="PASSED">
+         <system-out><![CDATA[2018-03-15 09:24:44 - [TEST_CASE][PASSED] - Test Cases/LogIn/LogInWithInvalidCredentials: Test Cases/LogIn/LogInWithInvalidCredentials
+
+2018-03-15 09:24:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://login-dev.champ.aero/sso/login'
+
+2018-03-15 09:24:49 - [MESSAGE][PASSED] - Browser is opened with url: 'http://login-dev.champ.aero/sso/login'
+
+2018-03-15 09:24:49 - [TEST_STEP][PASSED] - setText: Text 'mart.zarate@gmail.com' is set on object 'Object Repository/Page_Login/input_email'
+
+2018-03-15 09:24:49 - [MESSAGE][PASSED] - Text 'mart.zarate@gmail.com' is set on object 'Object Repository/Page_Login/input_email'
+
+2018-03-15 09:24:49 - [TEST_STEP][PASSED] - setText: Text 'gwapito' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-03-15 09:24:50 - [MESSAGE][PASSED] - Text 'gwapito' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-03-15 09:24:50 - [TEST_STEP][PASSED] - setText: Text 'CV' is set on object 'Object Repository/Page_Login/input_customer'
+
+2018-03-15 09:24:51 - [MESSAGE][PASSED] - Text 'CV' is set on object 'Object Repository/Page_Login/input_customer'
+
+2018-03-15 09:24:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+2018-03-15 09:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign In' is clicked on
+
+2018-03-15 09:24:52 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Information is mandatory' is present on page 
+
+2018-03-15 09:24:53 - [MESSAGE][PASSED] - Text 'Information is mandatory' is present on page 
+
+2018-03-15 09:24:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-15 09:24:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 09:24:32 - [TEST_SUITE][PASSED] - LoginSuite: Test Cases/LogIn/LogInWithInvalidCredentials]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

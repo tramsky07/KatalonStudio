@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginSuite,Chrome 65.0.3325.162,,2018-03-15 09:24:32,2018-03-15 09:24:54,22.184s,PASSED
+,,,,,,
+Test Cases/LogIn/LogInCustomKeyword,Chrome 65.0.3325.162,,2018-03-15 09:24:32,2018-03-15 09:24:44,11.951s,PASSED
+username.setUsername.applicationLogIn,Chrome 65.0.3325.162,,2018-03-15 09:24:33,2018-03-15 09:24:44,11.440s,PASSED
+,,,,,,
+Test Cases/LogIn/LogInWithInvalidCredentials,Chrome 65.0.3325.162,,2018-03-15 09:24:44,2018-03-15 09:24:54,9.416s,PASSED
+openBrowser,Chrome 65.0.3325.162,Opening TGS Login Page,2018-03-15 09:24:45,2018-03-15 09:24:49,3.946s,PASSED
+setText,Chrome 65.0.3325.162,,2018-03-15 09:24:49,2018-03-15 09:24:49,0.707s,PASSED
+setText,Chrome 65.0.3325.162,,2018-03-15 09:24:49,2018-03-15 09:24:50,0.840s,PASSED
+setText,Chrome 65.0.3325.162,,2018-03-15 09:24:50,2018-03-15 09:24:51,0.457s,PASSED
+click,Chrome 65.0.3325.162,,2018-03-15 09:24:51,2018-03-15 09:24:52,1.776s,PASSED
+verifyTextPresent,Chrome 65.0.3325.162,,2018-03-15 09:24:52,2018-03-15 09:24:53,0.179s,PASSED
+closeBrowser,Chrome 65.0.3325.162,,2018-03-15 09:24:53,2018-03-15 09:24:54,1.036s,PASSED
